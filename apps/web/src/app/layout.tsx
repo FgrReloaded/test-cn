@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "../index.css";
 import Providers from "@/components/providers";
+import Header from "@/components/header";
 
 export const metadata: Metadata = {
   title: "my-better-t-app",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <div className="grid grid-rows-[auto_1fr] h-svh">
+            <Header />
             {children}
           </div>
         </Providers>
