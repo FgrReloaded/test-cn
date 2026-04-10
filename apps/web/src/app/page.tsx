@@ -3,7 +3,6 @@ export default function Home() {
     <div className="h-screen w-screen flex justify-center items-center">
       <h1 className="text-4xl font-bold">Hello from upstream</h1>
       <h1>New changes from upstream again & again</h1>
-      <Link href="/hello">Go to hello page</Link>
     </div>
   );
 }
