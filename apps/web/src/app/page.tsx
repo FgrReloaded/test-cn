@@ -1,8 +1,11 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
       <h1 className="text-4xl font-bold">Hello from upstream</h1>
       <h1>New changes from upstream again</h1>
+      <Link href="/new">New</Link>
     </div>
   );
 }
